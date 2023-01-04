@@ -1,0 +1,104 @@
+body {
+	margin: 0px;
+	background-color: black;
+}
+
+.box0 {
+	width: 100%;
+	height: 840px;
+	margin: 0px auto;
+}
+
+.daohang1 {
+	width: 100%;
+	height: 100px;
+	background-color: red;
+	vertical-align: middle;
+	overflow: hidden;
+	color: aquamarine;
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+}
+
+.daohang1 ul {
+	display: inline-block;
+	margin: 0px;
+	padding-left: 10px;
+	margin-right: 30px;
+	font-size: 30px;
+}
+
+.daohang1 li {
+	display: inline-block;
+	margin-left: 10px;
+}
+.input1 {
+	width: 200px;
+	height: 30px;
+	border: 2px solid saddlebrown;
+	/* 相对定位 */
+	position: relative;
+	left: -4px;
+	top: 1px;
+	/* 将文本框修改为园形 */
+	border-radius: 500px;
+}
+
+.input2 {
+	width: 50px;
+	height: 36px;
+	background-color: saddlebrown;
+	color: white;
+	border: 2px solid saddlebrown;
+	border-radius: 500px;
+}
+#logo {
+	margin-left: 30px;
+}
+
+#wenzi1 {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+#tu1 {
+	position: relative;
+}
+
+#wenzi2 {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+#tu2 {
+	position: relative;
+}
+
+#wenzi3 {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+#tu3 {
+	position: relative;
+}
+
+#wenzi4 {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+#tu4 {
+	position: relative;
+}
+#footer {
+	text-align: center;
+	background-color: yellowgreen;
+	width: 100%;
+	float: left;
+}

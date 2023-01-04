@@ -1,0 +1,184 @@
+body {
+	margin: 0px;
+	/* 	background-color: #000000; */
+}
+
+.box0 {
+	width: 100%;
+	height: 840px;
+	margin: 0px auto;
+}
+
+.daohang1 {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	vertical-align: middle;
+	overflow: hidden;
+	color: aquamarine;
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+}
+
+.daohang1 ul {
+	display: inline-block;
+	margin: 0px;
+	padding-left: 10px;
+	margin-right: 30px;
+	font-size: 30px;
+}
+
+.daohang1 li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#logo {
+	margin-left: 30px;
+}
+
+.s1 {
+	width: 1225px;
+	height: 460px;
+	position: relative;
+}
+
+.s2 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 234px;
+	height: 450px;
+	background: #000000;
+	z-index: 10;
+	opacity: 0.8;
+}
+
+.s2 li {
+	width: 190px;
+	height: 39px;
+	text-align: center;
+	list-style: none;
+}
+
+.s2 li:hover {
+	background-color: chocolate;
+}
+
+.s2-ul span {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	font-size: 16px;
+}
+
+.s2-ul a {
+	text-decoration: none;
+	color: white;
+}
+
+.lunbo {
+	width: 1287px;
+	height: 450px;
+	background-color: greenyellow;
+	position: relative;
+	margin-right: 20px;
+	left: 232px;
+}
+
+.lunbo img {
+	width: 100%;
+	height: 100%;
+}
+
+.canvas {
+	text-align: center;
+}
+
+.baitaqu {
+	float: left;
+	margin: 0px;
+}
+
+.dengtashi {
+	float: right;
+	margin: 10px;
+}
+
+.hongweiqu {
+	float: left;
+}
+
+.wenshengqu {
+	float: right;
+}
+
+.taizihequ {
+	float: left;
+}
+
+.liaoyangxian {
+	float: right;
+}
+
+.zhongjian {
+	text-align: center;
+}
+
+.tu img {
+	width: 460px;
+	height: 200px;
+	float: right;
+	margin: 15px;
+	transition: 2s all;
+}
+
+.tu img:hover {
+	transform: scale(1.08);
+}
+
+.tu1 img {
+	width: 460px;
+	height: 200px;
+	float: left;
+	margin-left: 63px;
+	transition: 2s all;
+}
+
+.tu1 img:hover {
+	transform: scale(1.08);
+}
+
+.tu2 img {
+	width: 460px;
+	height: 200px;
+	float: left;
+	margin-left: 35px;
+	transition: 2s all;
+}
+
+.tu2 img:hover {
+	transform: scale(1.08);
+}
+
+.tu3 img {
+	width: 460px;
+	height: 200px;
+	float: left;
+	margin-top: -200px;
+	margin-left: 1043px;
+	transition: 2s all;
+}
+
+.tu3 img:hover {
+	transform: scale(1.08);
+}
+
+#footer {
+	text-align: center;
+	background-color: yellowgreen;
+	width: 1519px;
+	float: left;
+	margin-top: 10px;
+}
